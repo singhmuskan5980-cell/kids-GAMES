@@ -1,0 +1,63 @@
+body {
+    background: #eef2ff;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #333;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.car { background: #ff5b5b; }
+.hill { background: #ffbf00; }
+.snake { background: #33cc66; }
+.tic { background: #5a67d8; }
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.game-screen {
+    display: none;
+    margin-top: 20px;
+}
+
+.back {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #444;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.tic-board {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tic-board div {
+    border: 2px solid #333;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
